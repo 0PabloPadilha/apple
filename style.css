@@ -1,0 +1,282 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: sf display;
+    src: url(SF\ PRO\ DISPLAY/);
+}
+
+:root{
+    --preto: #1D1D1F;
+    --branco: #F5F5F7;
+    --azul: #217BD0;
+    --cinza: #151516;
+    --cinza-claro: #F5F5F7;
+}
+
+body{
+    background-color: var(--preto);
+    font-family: 'sf display', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--cinza);
+    margin: 0px;
+}
+
+header{
+    background-color: var(--cinza);
+    height: 40px;
+}
+
+nav a{
+    color: var(--branco);
+    font-size: smaller;
+    font-weight: lighter;
+    background-color: var(--cinza);
+    padding: 0px 20px;
+    vertical-align: 12px;
+}
+
+div{
+    height: 600px;
+    max-width: 100%;
+    background-image: url(imgs/iphone\ full.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#white{
+    height: 450px;
+    max-width: 100%;
+    background-image: url(imgs/iphone\ white.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+div#white h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--preto);
+    letter-spacing: -1px;
+    margin: 0px;
+    padding-top: 50px;
+}
+
+div#white h2{
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    color: var(--preto);
+    margin: 0px;
+}
+
+div#white > p, a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--azul);
+    margin-top: 8px;
+    padding: 0px 10px
+}
+
+a.und:hover{
+    text-decoration: underline;
+}
+
+div h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--branco);
+    letter-spacing: -1px;
+    margin: 0px;
+    padding-top: 50px;
+}
+
+div h2{
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    color: var(--branco);
+    margin: 0px;
+}
+
+div > p, a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--azul);
+    margin-top: 8px;
+    padding: 0px 10px
+}
+
+#watch{
+    height: 500px;
+    max-width: 100%;
+    background-image: url(imgs/watch.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+div#watch h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--branco);
+    letter-spacing: -1px;
+    margin: 0px;
+    padding-top: 220px;
+}
+
+div#watch h2{
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    color: var(--branco);
+    margin: 0px;
+}
+
+div#watch h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    letter-spacing: -1px;
+    color: var(--branco);
+    margin: 0px;
+}
+
+div#watch > p{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 8px;
+    padding: 0px 10px;
+    vertical-align: bottom;
+}
+
+#watch > p >a.btt{
+    color: var(--preto);
+    padding: 10px 20px;
+    margin: 0px 10px;
+    font-size: smaller;
+    font-weight: 400;
+    background-color: var(--branco);
+    border-radius: 20px;
+}
+
+div#mac{
+    width: 48vw;
+    background-image: url(imgs/mac.png);
+}
+
+div#mac > h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--preto);
+    letter-spacing: -1px;
+    margin: 0px;
+    padding-top: 50px;
+}
+
+div#mac > h2{
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    color: var(--preto);
+    margin: 0px;
+}
+
+div#mac > p, a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--azul);
+    margin-top: 8px;
+    padding: 0px 10px
+}
+
+div#ipad{
+    width: 49vw;
+    background-image: url(imgs/ipad.png);
+}
+
+div#ipad > h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: var(--preto);
+    letter-spacing: -1px;
+    margin: 0px;
+    padding-top: 50px;
+}
+
+div#ipad > h2{
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    color: var(--preto);
+    margin: 0px;
+}
+
+div#ipad > p, a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--azul);
+    margin-top: 8px;
+    padding: 0px 10px
+}
+
+#apple-icon{
+    width: 37px;
+    height: 43px;
+    padding-right: 10px;
+    vertical-align: 0px;
+}
+
+#top-icon{
+    width: 15px;
+    height: 20px;
+    margin: 8px 20px;
+}
+
+footer{
+    height: 120px;
+    padding: 0px 10px;
+    background-color: var(--branco);
+    font-size: 12px;
+    font-weight: normal;
+    color: #9B9B9C;
+
+}
+
+footer > p > a{
+    font-family: 'sf display', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: var(--azul);
+    text-decoration: underline;
+    padding-top: 0px;
+}
+
+footer>p#one{
+    font-family: 'sf display', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    padding-top: 15px;
+}
